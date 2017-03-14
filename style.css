@@ -1,0 +1,96 @@
+body { 
+
+}
+
+.main {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: yellow;
+    text-decoration: none;
+    background: url(/home/ann/Рабочий стол/site2/fon.jpg) no-repeat;
+}
+
+.page-header {
+background: url(/home/ann/Рабочий стол/site2/fon.jpg);
+}
+
+.features {
+	
+}
+
+li {
+	list-style-type: none;
+}
+a {
+	color: #000;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 140px;
+}
+
+td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+dt {
+	font-size: 20px;
+}
+
+.footer-copyright a {
+	color: red;
+}
+
+.feedback-form-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+textarea {
+	height: 110px;
+	width: 260px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 100px;
+}
+
+
+
+/*.images a {
+	margin: 10px;
+	border: 1px solid black;
+}*/
+
+.catalog-and-price {
+	margin: 25px;
+}
+
+.catalog-item {
+	margin: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: baseline;
+
+}
